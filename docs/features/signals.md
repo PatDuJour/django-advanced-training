@@ -15,7 +15,7 @@ Some of the most common built-in signals in Django are:
 
 The most basic use of signals is when you connect your callable with a signal to be called when that signal is triggered.
 
-For example, lets say we want to log every request that comes into out applications. We could create a function that would do that and connect it with the `request_started` signal. Assume that we have an application called `todos`:
+For example, let's say we want to log every request that comes into our applications. We could create a function that would do that and connect it with the `request_started` signal. Assume that we have an application called `todos`:
 
 ```python
 # todos/tasks.py
